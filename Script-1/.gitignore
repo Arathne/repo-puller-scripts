@@ -1,0 +1,20 @@
+# Any Sandboxes
+csci24000*
+
+# Dr Hill's python grader script
+grader/
+grader.py
+errors.log
+
+# Moss script [Get from Stanford], and moss commands
+moss
+*moss*.txt
+
+# Directory of known completed versions of the assignments
+copy_dirs/
+
+# Ignore rosters
+roster*
+
+# UML diagrams in Umlet's format
+*.uxf
