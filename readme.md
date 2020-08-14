@@ -18,17 +18,11 @@
 
 
 | script | description |
-
 | ------ | ------ |
-
 | pullRepo.sh           | pulls repositories from students |
-
 | list.sh               | displays missing/successful in the terminal |
-
 | archive-moss.sh       | zips html files and all sub-links associated |
-
 | moss.pl               | sends files to moss.stanford.edu and returns a link |
-
 | cheater-buster9000.sh | sends files to moss.pl and the run archive-moss.sh |
 
 
@@ -41,8 +35,7 @@
 ##### EXAMPLES:
 
 ```sh
-
-$ ./pullRepo.sh roster.txt csci24000_spring2020_A1`
+$ ./pullRepo.sh roster.txt csci24000_spring2020_A1
 
 $ ./list.sh csci24000_spring2020_A1
 
@@ -66,13 +59,9 @@ $ ./cheaterBuster9000.sh csci24000_spring2020_A1 cpp cc past_submissions
 
 
 | script | description |
-
 | ------ | ------ |
-
 | generate_roster.py | converts csv to roster.txt |
-
 | pull_repos.py      | pulls repositories from students |
-
 | zipper.py          | zips directory |
 
 
@@ -86,7 +75,6 @@ $ ./cheaterBuster9000.sh csci24000_spring2020_A1 cpp cc past_submissions
 ##### EXAMPLES:
 
 ```sh
-
 $ python generate_roster.py -c student_roster.csv -f userid last first
 
 $ python pull_repos.py -r csci24000_spring2020_A1
